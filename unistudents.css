@@ -172,7 +172,10 @@ header {
 }
 
 .text1:hover,
-.text2:hover,
+.text2:hover{
+  color: #ffffff;
+}
+
 .apple-icon:hover,
 .playstore-icon:hover{
   filter: invert(100%) brightness(200%);
