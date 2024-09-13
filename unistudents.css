@@ -1,0 +1,242 @@
+/* Gradient Banner */
+
+.top-banner{
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right, #685FF8, #4F48C0);
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.read-our-story1{
+  background-color: #ffffff;
+  color: #1b1940;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  border-width: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+
+.banner-text{
+  color: #ffffff;
+  display: inline;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-clip: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.logo-image{
+  cursor: pointer;
+}
+
+.navbuttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.home-btn, 
+.joinus-btn, 
+.aboutus-btn, 
+.blog-btn,
+.advertise-btn,
+.employers-btn{
+  color: #1b1940;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.home-btn:hover,
+.joinus-btn:hover,
+.aboutus-btn:hover,
+.blog-btn:hover,
+.advertise-btn:hover,
+.employers-btn:hover{
+  color: #6c63ff;
+}
+
+.download-button1{
+  color: #1b1940;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  border-color: #1b1940;
+  border-style: solid;
+  padding: 10px 20px 10px 20px;
+  border-width: 2px;
+}
+
+.download-button1:hover{
+  color: #ffffff;
+  background-color: #6c63ff;
+  border-color: #6c63ff;
+}
+
+/* Home Page */
+
+.container {
+  display: block;
+  max-width: 100%;
+  height: 550px;
+}
+
+.main{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 450px;
+  height: 60px;
+}
+
+.h1styles {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1b1940;
+  display: block;
+  box-sizing: border-box;
+  text-align: left;
+  height: 160px;
+  width: 450px; 
+}
+
+.img-p{
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  line-height: 28px;
+  box-sizing: border-box;
+  padding-top: 29px;
+  padding-bottom: 29px;
+}
+
+.paragraph {
+  font-size: 18px;
+  display: block;
+  box-sizing: border-box;
+  color: #1b1940;
+  font-weight: lighter;
+}
+
+.apple-button,
+.play-button{
+  color: #1b1940;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  border-color: #1b1940;
+  border-style: solid;
+  padding: 18px 28px 18px 28px;
+  border-width: 2px;
+  align-self: center;
+}
+
+.text1:hover,
+.text2:hover,
+.apple-icon:hover,
+.playstore-icon:hover{
+  filter: invert(100%) brightness(200%);
+}
+  
+.apple-button:hover,
+.play-button:hover{
+  color: #ffffff;
+  background-color: #6c63ff;
+  border-color: #6c63ff;
+}
+
+.main-image {
+  width: 100%;
+  max-width: 400px;
+  object-fit: contain;
+}
+
+/* Footer */
+footer {
+  background-color: #2A266B; 
+  color: white; 
+  padding: 80px 0;
+  margin-top: 9px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 250px;
+  margin-right: 160px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 60px;
+  margin-right: 200px;
+
+}
+
+.footer-section h3 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color:white;
+}
+
+.footer-section a {
+  color:#ffffffb3;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.footer-section a:hover{
+  color: #ffffff;
+}
